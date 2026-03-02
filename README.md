@@ -1,7 +1,8 @@
-<p align="center">
-  <img src="logo.png" width="250">
+ <p align="center">
+  <img src="Southwest_Interiors_Logo_Transparent.png" width="250">
 </p>
-</p># Southwest Interiors, LLC
+
+# Southwest Interiors, LLC
 
 Professional Home Services & Property Maintenance  
 Louisville, KY  
