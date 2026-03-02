@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="Southwest_Interiors_Logo_Transparent.png" width="250">
-</p>
 
 # Southwest Interiors, LLC
 
