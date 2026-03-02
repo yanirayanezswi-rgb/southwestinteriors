@@ -1,4 +1,5 @@
-# Southwest Interiors, LLC
+logo.png
+</p># Southwest Interiors, LLC
 
 Professional Home Services & Property Maintenance  
 Louisville, KY  
