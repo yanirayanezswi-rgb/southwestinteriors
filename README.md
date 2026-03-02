@@ -1,4 +1,6 @@
-logo.png
+<p align="center">
+  <img src="logo.png" width="250">
+</p>
 </p># Southwest Interiors, LLC
 
 Professional Home Services & Property Maintenance  
