@@ -1,28 +1,108 @@
-<h1>Southwest Interiors LLC</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Southwest Interiors LLC</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
 
-<button class="button" onclick="toggleServices()">🛠 Services</button>
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
 
-<div id="servicesBox" class="services-box">
-  <strong>Services / Servicios</strong><br><br>
-  Handyman / Reparaciones Generales<br>
-  Interior Repairs / Reparaciones Interiores<br>
-  Furnace Maintenance / Mantenimiento de Calefacción<br>
-  Garage Door Service / Puertas de Garaje<br>
-  Housekeeping / Turnover / Limpieza<br>
-  Emergency / On-Call / Emergencia
-</div>
+    h1 {
+      font-size: 2.3rem;
+      margin-bottom: 10px;
+      color: #dfe8ff;
+    }
 
-<a class="button" href="YOUR-REAL-JOTFORM-LINK-HERE">
-  📋 Book Now / Request Service
-</a>
+    .subtitle {
+      font-size: 1.1rem;
+      color: #cfcfcf;
+      margin-bottom: 30px;
+    }
 
-<a class="button" href="tel:5022077186">📞 Call Now</a>
-<a class="button" href="sms:5022077186">💬 Text Now</a>
-<a class="button" href="mailto:southwestinteriors@outlook.com">✉️ Email</a>
+    .button {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 14px 0;
+      padding: 18px 20px;
+      background: #001f5b;
+      color: white;
+      text-decoration: none;
+      border-radius: 18px;
+      font-size: 1.15rem;
+      font-weight: bold;
+    }
 
-<div class="note">
-  All requests are documented for scheduling, safety, and service verification.<br>
-  Todas las solicitudes se documentan para programación y seguridad.
-</div>
+    .button.light {
+      background: #3a537d;
+    }
 
-<div class="location">📍 Louisville, KY</div>
+    .services-box {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding: 22px 18px;
+      background: #1a1a1a;
+      border-radius: 18px;
+      text-align: left;
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+
+    .note {
+      margin-top: 24px;
+      font-size: 1rem;
+      color: #d7d7d7;
+      line-height: 1.45;
+    }
+
+    .location {
+      margin-top: 28px;
+      font-size: 1.6rem;
+      color: #e6e6e6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Southwest Interiors LLC</h1>
+
+    <a class="button" href="tel:5022077186">📞 Call Now</a>
+    <a class="button" href="sms:5022077186">💬 Text Now</a>
+    <a class="button" href="mailto:southwestinteriors@outlook.com">✉️ Email</a>
+
+    <a class="button light" href="#services">🛠️ Services</a>
+
+    <div class="services-box" id="services">
+      <strong>Services / Servicios</strong><br><br>
+      Handyman / Reparaciones Generales<br>
+      Interior Repairs / Reparaciones Interiores<br>
+      Furnace Maintenance / Mantenimiento de Calefacción<br>
+      Garage Door Service / Puertas de Garaje<br>
+      Housekeeping / Turnover / Limpieza<br>
+      Emergency / On-Call / Emergencia
+    </div>
+
+    <a class="button" href="https://form.jotform.com/">📋 Request Service / Solicitar Servicio</a>
+
+    <div class="note">
+      All requests are documented for scheduling, safety, and service verification.<br>
+      Todas las solicitudes se documentan para programación y seguridad.
+    </div>
+
+    <div class="location">📍 Louisville, KY</div>
+  </div>
+</body>
+</html>
